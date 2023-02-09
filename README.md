@@ -54,22 +54,22 @@ Import and register component
 import { createApp } from 'vue';
 import App from './App.vue';
 
-import Datepicker from '@vuepic/vue-datepicker';
+import DatePicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css';
 
 const app = createApp(App);
-app.component('Datepicker', Datepicker);
+app.component('DatePicker', DatePicker);
 ```
 
 **Local**
 
 ```vue
 <script>
-    import Datepicker from '@vuepic/vue-datepicker';
+    import DatePicker from '@vuepic/vue-datepicker';
     import '@vuepic/vue-datepicker/dist/main.css';
     
     export default {
-        components: { Datepicker }
+        components: { DatePicker }
     }
 </script>
 ```
